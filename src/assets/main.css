@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
+
+*{
+    margin: 0%;
+    font-family: 'Oswald', sans-serif ;
+}
+
+body{
+    background-image: url(../img/NavbarFondo.jpg);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#embedim--snow{
+    z-index: 0!important;
+}
+
+.social-icon {
+    filter: brightness(0) invert(2); /* Cambia el color a blanco */
+    transition: filter 0.3s ease; /* Transición suave */
+}
+
+.social-icon:hover {
+    filter: brightness(50) invert(50%) sepia(50%) saturate(100%) hue-rotate(120deg); /* Cambia el color al hacer hover */
+}

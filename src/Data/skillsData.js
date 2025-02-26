@@ -1,4 +1,4 @@
-export const ExpertiseData = [
+const skillsData = [
     {
         id:1,
         name:"React",
@@ -24,3 +24,5 @@ export const ExpertiseData = [
         image:"./typescript.png"
     }
 ]
+
+export default  skillsData ;

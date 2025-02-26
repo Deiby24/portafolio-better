@@ -2,10 +2,10 @@ import React from "react";
 import { Box, Typography,Button , Grid2, Divider } from "@mui/material";
 import { Link as ScrollLink } from "react-scroll";
 import Typewriter from 'typewriter-effect';
-import { RedSocial } from "./RedSocial";
+import { RedSocial } from "../common/RedSocial";
 
 
-export function Profile() {
+const Profile =  () => {
     
     return (
         <Box className="w-full py-12">
@@ -15,7 +15,7 @@ export function Profile() {
               <img
                 alt="aboutimg"
                 className="imgAboutMe rounded-full w-48 h-48 object-cover mx-auto"
-                src={require("../img/deiby.jpg")}
+                src={require("../../assets/img/deiby.jpg")}
               />
             </Grid2>
             <Grid2 item xs={12} md={6} className="containerTextNavb text-white">
@@ -56,3 +56,5 @@ export function Profile() {
   
     );
 }
+
+export default Profile;

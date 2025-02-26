@@ -4,7 +4,8 @@ import { AppBar, Toolbar, Typography, Button, Box, IconButton, Drawer, List, Lis
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
-export function Navbar() {
+
+const Navbar =() => {
   const [open, setOpen] = useState(false); // Estado para controlar el menú móvil
 
   useEffect(() => {
@@ -122,3 +123,5 @@ export function Navbar() {
     </Box>
   );
 }
+
+export default Navbar;

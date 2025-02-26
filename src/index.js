@@ -1,26 +1,37 @@
 import React from "react";
-import '../src/assets/main.css';
-import '../src/assets/tailwind.css';
-import  ReactDOM  from "react-dom/client";
-import { Footer } from "./components/Footer";
-import { Navbar } from "./components/Navbar";
-import { Profile } from "./components/Profile"; 
-import { AboutMe } from "./components/AboutMe";
-import { Proyects } from "./components/Proyects";
-import { Empresas } from "./components/Collaborations";
-import { Expertise } from "./components/expertise";
-
+import ReactDOM from "react-dom/client";
+import './assets/main.css';
+import './assets/tailwind.css';
+import Footer from "./components/common/Footer";
+import Navbar from "./components/common/Navbar";
+import Profile from "./components/sections/Profile";
+import AboutMe from "./components/sections/AboutMe";
+import Projects from "./components/sections/Projects";
+import Companies from "./components/sections/Companies";
+import Skills from "./components/sections/Skills";
+import AnimationSection from "./assets/Variants/AnimationSection";
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
+
 root.render(
-    <>
-        <Navbar></Navbar>
-        <Profile></Profile>
-        <AboutMe></AboutMe>
-        <Proyects></Proyects>
-        <Empresas></Empresas>
-        <Expertise></Expertise>
-        <Footer></Footer>
-    </>
+  <>
+      <Navbar />
+      <AnimationSection>
+        <Profile />
+      </AnimationSection>
+      <AnimationSection>
+        <AboutMe />
+      </AnimationSection>
+      <AnimationSection>
+        <Projects />
+      </AnimationSection>
+      <AnimationSection>
+        <Companies />
+      </AnimationSection>
+      <AnimationSection>
+        <Skills />
+      </AnimationSection>
+      <Footer />
+  </>
 )

@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Typography,Button , Grid2, Divider } from "@mui/material";
-import { Link as ScrollLink } from "react-scroll";
+
 import Typewriter from 'typewriter-effect';
 import { RedSocial } from "../common/RedSocial";
 

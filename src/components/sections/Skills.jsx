@@ -15,7 +15,7 @@ const Skills = () => {
                 {skillsData.map((item, index) => (
                     <motion.div
                         key={item.id}
-                        className="relative w-64 h-80 bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-lg overflow-hidden transform transition-transform duration-300"
+                        className="relative w-64 h-116  bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-lg overflow-hidden transform transition-transform duration-300"
                         style={{
                             transform: `rotate(${index % 2 === 0 ? "-4deg" : "4deg"}) translateY(${index * 5}px)`,
                         }}

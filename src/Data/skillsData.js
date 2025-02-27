@@ -22,7 +22,7 @@ const skillsData = [
         name:"TypeScript",
         description:"Is a multi-paradigm programming language developed and standardized by Microsoft as part of its .NET platform, which was later approved as a standard by ECMA and ISO. C# is one of the programming languages designed for the Common Language Infrastructure.",
         image:"./typescript.png"
-    }
+    },
 ]
 
 export default  skillsData ;

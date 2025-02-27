@@ -51,7 +51,7 @@ const Navbar =() => {
       >
         <Toolbar className="flex justify-between">
           <Typography variant="h6" className="text-white font-bold">
-            Deiby Hernández
+            DEIBY HERNANDEZ
           </Typography>
           {/* Menú para pantallas grandes */}
           <Box className="hidden md:flex space-x-4">

@@ -19,7 +19,7 @@ const Profile =  () => {
               />
             </Grid2>
             <Grid2 item xs={12} md={6} className="containerTextNavb text-white">
-              <Typography variant="h3" className="font-bold mb-4">
+              <Typography variant="h2" className="font-bold mb-4">
                 Deiby Hernández Pérez
               </Typography>
               <Typography variant="h5" className="mb-8">

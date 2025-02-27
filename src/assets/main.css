@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
+
+*{
+    margin: 0%;
+    font-family: 'Oswald', sans-serif ;
+}
+
+body{
+    /* background-image: url(../img/NavbarFondo.jpg); */
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#embedim--snow{
+    position: fixed; /* o absolute */
+    z-index: -1 !important; /* Valor negativo para estar detrás */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.social-icon {
+    filter: brightness(0) invert(2); /* Cambia el color a blanco */
+    transition: filter 0.3s ease; /* Transición suave */
+}
+
+.social-icon:hover {
+    filter: brightness(50) invert(50%) sepia(50%) saturate(100%) hue-rotate(120deg); /* Cambia el color al hacer hover */
+}
+
+#Collaborations {
+    clear: both;
+    padding-top: 50px; /* Espacio extra arriba */
+}
+
+.containerProjects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+#Projects {
+    min-height: 100vh; /* Ajusta según el contenido */
+    margin-bottom: 100px; /* Espacio extra para evitar superposición */
+}

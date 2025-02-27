@@ -6,7 +6,7 @@ import "tailwindcss/tailwind.css";
 const AboutMe = () => {
   const AnimationAbout = useRef(null);
   const WindowRef = useRef(null);
-  const [isTypedFinished, setIsTypedFinished] = useState(false);
+  const [, setIsTypedFinished] = useState(false);
 
   useEffect(() => {
     const typed = new Typed(AnimationAbout.current, {
@@ -52,8 +52,6 @@ const AboutMe = () => {
             className="relative max-w-4xl w-full bg-black text-white font-mono p-10 rounded-xl shadow-2xl border border-white transition-transform duration-300 ease-out"
           >
 
-            {/* Título de la ventana */}
-            {/* <div className="absolute top-2 left-16 text-green-300 text-sm">GOING_INDEPENDENT.EXE</div> */}
             <div className="absolute top-2 left-4 flex gap-2">
               <span className="w-3 h-3 bg-red-500 rounded-full"></span>
               <span className="w-3 h-3 bg-yellow-500 rounded-full"></span>

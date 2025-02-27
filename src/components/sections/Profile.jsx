@@ -41,13 +41,11 @@ const Profile =  () => {
               <Button
                 variant="outlined"
                 color="inherit"
-                component={ScrollLink}
-                to="About"
-                offset={-100}
-                duration={500}
                 className="border-white text-white hover:bg-white hover:text-blue-900"
+                href="/pdf/HV-ATS.pdf"
+                download="HV-ATS.pdf"
               >
-                Learn More
+                download HV
               </Button>
             </Grid2>
           </Grid2>

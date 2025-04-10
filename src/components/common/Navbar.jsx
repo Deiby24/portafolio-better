@@ -9,9 +9,9 @@ import {
   Drawer, 
   List, 
   ListItem, 
-  useMediaQuery,
+
   useTheme,
-  Divider
+
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -19,18 +19,9 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
-  // Efecto para detectar scroll
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 10);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  const theme = useTheme();
+
 
   // Efecto snow original
   useEffect(() => {

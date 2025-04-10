@@ -17,6 +17,15 @@ const projectsData = [
         button: "go to repository",
         enabled:true,
     }, 
+    {
+        id: 3,
+        name: "libertas consulting services",
+        description: "website of Libertas Consulting Services, a consulting firm specializing in migration advisory. Showcases past projects, previous experience, and successful cases supporting individuals and families through their migration processes.",
+        image: "LCS.png",
+        link: "https://libertasconsultingservice.com",
+        button: "go to repository",
+        enabled:true,
+    }, 
     
 ];
 
